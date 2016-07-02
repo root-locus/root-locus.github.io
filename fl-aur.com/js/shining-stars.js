@@ -36,11 +36,11 @@ $(function() {
     classToAdd = 'col-md-4';
   }
 
-  var starProto = '<img src="img/star.png" style="position: absolute; left: {{left}}%; width: {{width}}%; animation: shining {{duration}}s ease {{delay}}s infinite alternate; -webkit-animation: shining {{duration}}s ease {{delay}}s infinite alternate;" class="star">'
+  var starProto = '<img src="img/rose-star.png" style="position: absolute; left: {{left}}%; width: {{width}}%; animation: shining {{duration}}s ease {{delay}}s infinite alternate; -webkit-animation: shining {{duration}}s ease {{delay}}s infinite alternate;" class="star">'
   for ( var i = 1; i < 11; i++) {
     var allstarPerRowHTML = '';
     for ( var k = 1; k < starPerRow + 1; k++) {
-      var starAttr = { left: getRandomInt(10,90), width: getRandomInt(10,40), duration: getRandom(1,3), delay: getRandom(0,3) };
+      var starAttr = { left: getRandomInt(10,90), width: getRandomInt(5,20), duration: getRandom(1,3), delay: getRandom(0,3) };
       var oneStar = starProto;
       for ( var j in starAttr ) {
          oneStar = insertProperty (oneStar, j, starAttr[j]);

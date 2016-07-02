@@ -13,9 +13,11 @@ $(function() {
 		$("div.gate").css({
 			'-webkit-animation-play-state': 'running', 'animation-play-state': 'running'
 		});
+		$("h1").css({'color': 'lightgrey'})
 	});
 
 	$(document).click(function (event) {
+		console.log(event);
 		if ( clikedItem ) {
 			for (var i in menuItems) {
 				$(menuItems[i]).css({"opacity": "1"});
