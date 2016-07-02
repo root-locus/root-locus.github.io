@@ -1,0 +1,67 @@
+.cover_info{
+	background: url(../img/designers-corner-1.png) 5% 5% no-repeat, #f6f6f6 url(../img/designers-corner-2.png) 95% 95% no-repeat;
+	position: relative;
+	min-height: 900px;   
+}
+
+.body_text{
+    width: 568px;
+    background: #fff;
+    margin:0 auto 0;
+    position: relative;
+    top:88px;
+   /* font-family: "ArnoPro-Italic";*/
+    padding:24px;
+    font-size: 22px;    
+    line-height:1.8;
+    font-style: italic;
+   box-shadow: 16px 11px 61px -11px rgba(0,0,0,0.48);
+ }
+
+.body_text:after{
+    content: "";
+    /* color: #333; */
+    background: url(../img/bg1.png) no-repeat;
+    width: 608px;
+    height: 103px;
+    left: -2px;
+    position: absolute;
+    bottom: -103px;
+    
+}
+.body_text:before{
+    content: "";
+    /* color: #333; 
+    background: url(../img/bg2.png) repeat-y;*/
+/*
+    background-position: 0 10px;
+    width: 36px;
+    height: 100%;
+    right: -35px;
+    top:0px;
+    position: absolute;    
+*/
+}
+.inf_box h2 {
+	text-align: center;
+	padding: 30px;
+    /*background: url(../img/h1-inf.png) 50% 0 no-repeat;
+    margin: 0px 0 38px 0;
+    height: 47px;
+    text-align: center;
+    position: relative;
+    top: 60px;*/
+}
+.inf_box_bottom a{
+/*    background: url(../img/h1-inf-bottom.png) 50% 0 no-repeat;
+    margin: 220px auto 38px auto;
+    height: 31px;
+    width: 149px;
+    display: inline-block;
+    text-align: center;
+    position: relative;*/
+    
+}
+.inf_box_bottom {
+    text-align: center;
+}

@@ -17,7 +17,7 @@ $(function() {
 	});
 
 	$(document).click(function (event) {
-		console.log(event);
+		var clickedParents = $(event.target).parents('.flip-container');
 		if ( clikedItem ) {
 			for (var i in menuItems) {
 				$(menuItems[i]).css({"opacity": "1"});
@@ -27,17 +27,16 @@ $(function() {
 					$(menuItems[i]).css({'transform': 'initial', 'z-index': '1' });
 				};
 			};
-			clikedItem = "";
-		} else if ( event.target.parentElement.parentElement.parentElement.id ) {
+			clikedItem = "";	
+		} else if ( clickedParents[0] ) {
 			for (var i in menuItems) {
-				if ( menuItems[i] !== "#"+event.target.parentElement.parentElement.parentElement.id ) {
+				if ( menuItems[i] !== "#"+clickedParents[0].id ) {
 					$(menuItems[i]).css({"opacity": "0.2"});
 					$(menuItems[i]+"-front").css({"cursor": "default"});
 				} else {
-					clikedItem = "#"+event.target.parentElement.parentElement.parentElement.id;
+					clikedItem = "#"+clickedParents[0].id;
 					document.querySelector(menuItems[i]).classList.toggle("flip");
 					$(clikedItem).css({"z-index": "2"});
-					//$(".front").css({'-webkit-animation-play-state': 'running', 'animation-play-state': 'running'});
 				};
 			};
 		};

@@ -17,21 +17,23 @@ body {
     background-attachment: fixed;
 }
 
+h1, h2, h3, h4 {
+	font-family: 'Derby', arial;
+	font-weight: normal;
+
+}
+
 h1 {
 	position: relative;
 	text-align: center;
-	font-family: 'Derby', arial;
 	margin-top: 3%;
 	font-size: 3em;
 	text-shadow: 4px 4px 4px #aaa;
 	z-index: 10;
-	font-weight: normal;
 }
 
 h2 {
-	font-family: 'Derby', arial;
 	font-size: 1.7em;
-	font-weight: normal;
 }
 
 .gate {
@@ -42,20 +44,72 @@ h2 {
 }
 
 .lock {
-	background-color: red;
 	position: absolute;
-	top: 50%;
-	right: 50%;
-	width: 30px;
-	height: 30px;
+    left: 0;
+    right: 0;
+    top: 45px;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    /*background-color: red;
+    border: 1px solid red;*/
+    border-radius: 45px;
+	width: 90px;
+	height: 90px;
+}
+
+.lock:active {
+    top: 1px;
+}
+
+.lock:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position:-90px -90px;
+    background-repeat:no-repeat;
+    background-image: -webkit-gradient(
+        linear, 0 0, 100% 100%,
+        color-stop(0% , rgba(255, 255, 255, 0.3)),
+        color-stop(37%, rgba(255, 255, 255, 0.3)),
+        color-stop(45%, rgba(255, 255, 255, 0.8)),
+        color-stop(50%, rgba(255, 255, 255, 0.0))
+    );
+    background-image: -moz-linear-gradient(
+        0 0,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 255, 255, 0.3) 37%,
+        rgba(255, 255, 255, 0.8) 45%,
+        rgba(255, 255, 255, 0.0) 50%
+    );
+    -moz-background-size:250% 250%, 100% 100%;
+      -o-background-size:250% 250%;
+         background-size:250% 250%;
+    
+    -webkit-transition: background-position 0s ease;
+       -moz-transition: background-position 0s ease;
+            transition: background-position 0s ease;
+}
+
+.lock:hover:before,
+.lock:focus:before {
+    background-position:0 0;
+    -webkit-transition-duration: 0.5s;
+       -moz-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+}
+
+.lock:active:before {
+    opacity: 0;
 }
 
 .lock:hover {
 	cursor: pointer;
-}
-
-.lock:active {
- 	background-color: blue;
 }
 
 @-webkit-keyframes shining {
@@ -96,7 +150,7 @@ img.star {
 
 div.menu {
 	position: absolute;
-	top: 100%;
+	/*top: 100%;*/
 	left: 0%;
 	right: 0%;
 	width: 80%;
@@ -109,7 +163,7 @@ div.menu {
 
 .flip-container {
 	margin-top: 80px;
-	margin-bottom: 200px;	
+	/*margin-bottom: 200px;*/
 }
 
 .flip-container.flip .flipper {
@@ -132,6 +186,8 @@ div.menu {
 	border: 1px solid black;
 	/*top: 0;
 	left: 0;*/
+	width: 400px;
+	height: 200px;
 	backface-visibility: hidden;
 }
 
@@ -140,8 +196,6 @@ div.menu {
 	position: absolute;
 	transform: rotateY(0deg);
 	cursor: pointer;
-	width: 400px;
-	height: 200px;
 }
 
 /* back, initially hidden pane */
@@ -206,4 +260,11 @@ div.menu {
     right: 25%;
     left: 29%;
     text-align: center;
+}
+
+#id4-back h3, #id5-back h3, #id6-back h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
