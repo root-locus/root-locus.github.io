@@ -1,0 +1,9 @@
+/* font-family: "Derby"; */
+@font-face {
+	font-family: 'Derby';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Derby'), local('Derby-Regular'),
+	url("../fonts/Derby/Derby.woff") format("woff"),
+	url("../fonts/Derby/Derby.ttf") format("truetype");
+}

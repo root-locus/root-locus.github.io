@@ -1,0 +1,34 @@
+@-webkit-keyframes opengate {
+        from {top: 0%;}
+        to {top: -100%;}
+}
+
+@keyframes opengate {
+        from {top: 0%;}
+        to {top: -100%;}
+}
+
+div.gate {
+        -webkit-animation: opengate 2s linear 3s 1 normal forwards paused;
+        animation: opengate 2s linear 3s 1 normal forwards paused;
+}
+
+div.sky {
+	animation: opengate 2s linear 0s 1 reverse forwards paused;
+	-webkit-animation: opengate 2s linear 0s 1 reverse forwards paused;
+}
+
+@-webkit-keyframes raisemenu {
+        from {top: 100%;}
+        to {top: 30%;}
+}
+
+@keyframes raisemenu {
+        from {top: 100%;}
+        to {top: 20%;}
+}
+
+div.menu {
+	animation: raisemenu 2s linear 3s 1 normal forwards paused;
+	-webkit-animation: raisemenu 2s linear 3s 1 normal forwards paused;
+}
