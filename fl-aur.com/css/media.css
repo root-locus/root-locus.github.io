@@ -1,5 +1,8 @@
 /********** Extra Large devices only **********/
 @media (min-width: 1441px) {
+  #menu {
+    width: 1441px;
+}
   .col-xlg-1, .col-xlg-2, .col-xlg-3, .col-xlg-4, .col-xlg-5, .col-xlg-6, .col-xlg-7, .col-xlg-8, .col-xlg-9, .col-xlg-10, .col-lg-11, .col-xlg-12 {
     float: left;
   }

@@ -1,6 +1,6 @@
 .cover_info{
 	background: url(../img/designers-corner-1.png) 5% 5% no-repeat, #f6f6f6 url(../img/designers-corner-2.png) 95% 95% no-repeat;
-	position: relative;
+	/*position: relative;*/
 	min-height: 900px;   
 }
 
