@@ -157,11 +157,15 @@ div.menu {
 	height: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
-	/*overflow: auto;*/
+	overflow-y: auto;
+	overflow-x: hidden;
 	/*border: 1px solid red;*/
 }
 
 .flip-container {
+	max-width: 400px;
+	margin-left: 10px;
+	margin-right: 10px;
 	margin-top: 80px;
 	/*margin-bottom: 200px;*/
 }
