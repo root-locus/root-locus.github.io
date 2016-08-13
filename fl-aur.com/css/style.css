@@ -172,6 +172,7 @@ div.menu {
 
 .flip-container.flip .flipper {
 	transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
 }
 
 .flip-container, .front, .back {
@@ -199,6 +200,7 @@ div.menu {
 .front {
 	position: absolute;
 	transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
 	cursor: pointer;
 }
 
@@ -206,6 +208,7 @@ div.menu {
 .back {
 	position: relative;
 	transform: rotateY(180deg) scale(1.5);
+	-ms-transform: rotateY(180deg) scale(1.5);
 } 
 
 #id1-front {
@@ -271,4 +274,5 @@ div.menu {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }
