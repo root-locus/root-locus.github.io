@@ -134,6 +134,8 @@
     display: none;
   }
   div.menu {
+    width: 100% !important;
+    margin: 0px !important;
     position: relative !important;
   }
   .back {
@@ -145,11 +147,14 @@
     background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #CCCCCC 100%) !important;
     background-position: center !important;
     width: 100% !important;
+    height: 50px !important;
     /*background-attachment: fixed !important;*/
   }
   span {
     top: 0px !important;
     left: 0px !important;
+    right: 0px !important;
+    text-align: center;
   }
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
