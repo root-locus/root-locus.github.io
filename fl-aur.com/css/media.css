@@ -129,16 +129,27 @@
   }
 }
 /********** Small devices only **********/
-@media (max-width: 767px) {
+@media (max-width: 450px) {
   .gate, .sky {
     display: none;
   }
   div.menu {
-    top: 10% !important;
+    position: relative !important;
   }
   .back {
-    transform: rotateY(180deg) !important;
-    -ms-transform: rotateY(180deg) !important;
+    /*transform: rotateY(180deg) !important;
+    -ms-transform: rotateY(180deg) !important;*/
+    display: none;
+  }
+  .front {
+    background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #CCCCCC 100%) !important;
+    background-position: center !important;
+    width: 100% !important;
+    /*background-attachment: fixed !important;*/
+  }
+  span {
+    top: 0px !important;
+    left: 0px !important;
   }
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
