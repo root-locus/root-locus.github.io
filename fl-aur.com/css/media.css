@@ -129,7 +129,7 @@
   }
 }
 /********** Small devices only **********/
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   .gate, .sky {
     display: none;
   }
