@@ -18,8 +18,9 @@ $(function() {
 
 	$(document).click(function (event) {
 		var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+		var clickedParents = $(event.target).parents('.flip-container');
+		console.log(clickedParents);
 		if ( width > 450 ) {
-			var clickedParents = $(event.target).parents('.flip-container');
 			if ( clikedItem ) {
 				for (var i in menuItems) {
 					$(menuItems[i]).css({"opacity": "1"});
@@ -39,6 +40,25 @@ $(function() {
 						clikedItem = "#"+clickedParents[0].id;
 						document.querySelector(menuItems[i]).classList.toggle("flip");
 						$(clikedItem).css({"z-index": "2"});
+					};
+				};
+			};
+		} else {
+			if ( clikedItem ) {
+				for (var i in menuItems) {
+					$(menuItems[i]+"-front").css({"cursor": "pointer", "opacity": "1"});
+					if ( clikedItem === menuItems[i] ) {
+						$(menuItems[i]+"-back").css({'display': 'none'});
+					};
+				};
+				clikedItem = "";
+			} else if ( clickedParents[0] ) {
+				for (var i in menuItems) {
+					if ( menuItems[i] !== "#"+clickedParents[0].id ) {
+						$(menuItems[i]+"-front").css({"cursor": "default", "opacity": "0.2"});
+					} else {
+						clikedItem = "#"+clickedParents[0].id;
+						$(clikedItem+"-back").css({"display": "block"});
 					};
 				};
 			};

@@ -139,8 +139,8 @@
     position: relative !important;
   }
   .back {
-    /*transform: rotateY(180deg) !important;
-    -ms-transform: rotateY(180deg) !important;*/
+    transform: rotateY(0deg) !important;
+    -ms-transform: rotateY(0deg) !important;
     display: none;
   }
   .flip-container {
