@@ -16,7 +16,7 @@ $(document).ready(function() {
 			var img = data["items"][i].img;
 			var desc = data["items"][i].desc;
 			//console.log(img);
- 			content += "<img class=\"lazyOwl\" data-src=\""img"\" alt=\"Букет\"><div class=\""desc"\">desc</div>";
+ 			content += "<img class=\"lazyOwl\" data=\""img"\" alt=\"Букет\"><div class=\""desc"\">desc</div>";
 		}
 	$("#owl-bouquets").html(content);
 	}
