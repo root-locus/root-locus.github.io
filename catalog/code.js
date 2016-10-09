@@ -7,7 +7,6 @@ $(document).ready(function() {
 		autoHeight : true,
 		transitionStyle:"fade",
 		jsonPath : 'data.json',
-		crossDomain: true,
  		jsonSuccess : customDataSuccess
 	});
 	
@@ -16,8 +15,8 @@ $(document).ready(function() {
 		for(var i in data["items"]){
 			var img = data["items"][i].img;
 			var desc = data["items"][i].desc;
-			console.log(img);
- 			content += "<img class=\"lazyOwl\" data-src=\"img\" alt=\"Букет\"><div class=\"desc\">desc</div>";
+			//console.log(img);
+ 			content += "<img class=\"lazyOwl\" data-src=\""img"\" alt=\"Букет\"><div class=\""desc"\">desc</div>";
 		}
 	$("#owl-bouquets").html(content);
 	}
