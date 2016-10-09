@@ -1,4 +1,4 @@
-a#bouquets_pop, a#join_pop {
+a#bouquets_pop, a#pots_pop, a#aftificials_pop, a#decor_pop {
     /*border: 2px solid #aaa;
     color: #fff;
     display: block;
@@ -14,7 +14,7 @@ a#bouquets_pop, a#join_pop {
     -o-border-radius: 10px;
     border-radius: 10px;
 }
-a#bouquets_pop:hover, a#join_pop:hover {
+a#bouquets_pop:hover, a#pots_pop:hover, a#aftificials_pop:hover, a#decor_pop:hover {
     border-color: #eee;
 }
 .overlay {
