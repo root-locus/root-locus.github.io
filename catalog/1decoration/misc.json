@@ -1,13 +1,10 @@
 {
   "owl" : [
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/20160628_075801.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/20160628_080006.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/20160628_080455.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/20160704_124027.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/20160704_124325.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/20160704_124428.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/20160704_124556.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/image-13.jpeg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/image-14.jpeg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/image-15.jpeg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"}
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor001.jpg' alt='Букет'><div class='desc'>гостиница Золотое кольцо. Оформление столов для переговоров на уровне министров здравоохранения из разных стран</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor002.jpg' alt='Букет'><div class='desc'>гостиница Золотое кольцо. Оформление столов для переговоров на уровне министров здравоохранения из разных стран</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor003.jpg' alt='Букет'><div class='desc'>гостиница Золотое кольцо. Оформление столов для переговоров на уровне министров здравоохранения из разных стран</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor004.jpg' alt='Букет'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor005.jpg' alt='Букет'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor006.jpg' alt='Букет'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor007.jpg' alt='Букет'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"}
 ]}

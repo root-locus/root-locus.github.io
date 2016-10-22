@@ -23,6 +23,55 @@ $(document).ready(function() {
 		jsonPath : 'pots.json'
 	});
 
+	$("#owl-dianthus").owlCarousel({
+		lazyLoad : true,
+		//singleItem : true,
+		//autoHeight : true,
+		transitionStyle:"fade",
+		jsonPath : 'dianthus.json'
+	});
+
+	$("#owl-gerbera").owlCarousel({
+		lazyLoad : true,
+		//singleItem : true,
+		//autoHeight : true,
+		transitionStyle:"fade",
+		jsonPath : 'gerbera.json'
+	});
+
+	$("#owl-hydrangea").owlCarousel({
+		lazyLoad : true,
+		//singleItem : true,
+		//autoHeight : true,
+		transitionStyle:"fade",
+		jsonPath : 'hydrangea.json'
+	});
+
+	$("#owl-orchid").owlCarousel({
+		lazyLoad : true,
+		//singleItem : true,
+		//autoHeight : true,
+		transitionStyle:"fade",
+		jsonPath : 'orchid.json'
+	});
+
+	$("#owl-roses").owlCarousel({
+		lazyLoad : true,
+		//singleItem : true,
+		//autoHeight : true,
+		transitionStyle:"fade",
+		jsonPath : 'roses.json'
+	});
+
+	$("#owl-chrysan").owlCarousel({
+		lazyLoad : true,
+		//singleItem : true,
+		//autoHeight : true,
+		transitionStyle:"fade",
+		jsonPath : 'chrysan.json'
+	});
+
+
 	$("#owl-artificials").owlCarousel({
 		lazyLoad : true,
 		//singleItem : true,

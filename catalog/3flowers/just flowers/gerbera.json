@@ -1,0 +1,10 @@
+{
+  "owl" : [
+{"item" : "<div class='item'><img class='lazyOwl' data-src='gerbera/gerbera001.jpeg' alt='Герберы'><div class='desc'></div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='gerbera/gerbera002.jpeg' alt='Герберы'><div class='desc'></div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='gerbera/gerbera003.jpg' alt='Герберы'><div class='desc'></div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='gerbera/gerbera004.jpg' alt='Герберы'><div class='desc'></div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='gerbera/gerbera005.jpg' alt='Герберы'><div class='desc'></div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='gerbera/gerbera006.jpg' alt='Герберы'><div class='desc'></div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='gerbera/gerbera007.jpg' alt='Герберы'><div class='desc'></div></div>"}
+]}
