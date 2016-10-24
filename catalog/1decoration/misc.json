@@ -1,10 +1,13 @@
 {
   "owl" : [
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor001.jpg' alt='Букет'><div class='desc'>гостиница Золотое кольцо. Оформление столов для переговоров на уровне министров здравоохранения из разных стран</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor002.jpg' alt='Букет'><div class='desc'>гостиница Золотое кольцо. Оформление столов для переговоров на уровне министров здравоохранения из разных стран</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor003.jpg' alt='Букет'><div class='desc'>гостиница Золотое кольцо. Оформление столов для переговоров на уровне министров здравоохранения из разных стран</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor004.jpg' alt='Букет'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor005.jpg' alt='Букет'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor006.jpg' alt='Букет'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor007.jpg' alt='Букет'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"}
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor001.jpg' alt='Разное'><div class='desc'>гостиница Золотое кольцо. Оформление столов для переговоров на уровне министров здравоохранения из разных стран</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor002.jpg' alt='Разное'><div class='desc'>гостиница Золотое кольцо. Оформление столов для переговоров на уровне министров здравоохранения из разных стран</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor003.jpg' alt='Разное'><div class='desc'>гостиница Золотое кольцо. Оформление столов для переговоров на уровне министров здравоохранения из разных стран</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor004.jpg' alt='Разное'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor005.jpg' alt='Разное'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor006.jpg' alt='Разное'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/decor007.jpg' alt='Разное'><div class='desc'>Стоматологическая клиника Диамант. Оформление стойки в приемной</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/h-1.jpeg' alt='Разное'><div class='desc'>Подготовка к Хэллоуину</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/h-2.jpeg' alt='Разное'><div class='desc'>Подготовка к Хэллоуину</div></div>"},
+{"item" : "<div class='item'><img class='lazyOwl' data-src='misc/h-3.jpeg' alt='Разное'><div class='desc'>Подготовка к Хэллоуину</div></div>"}
 ]}

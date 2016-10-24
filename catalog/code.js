@@ -96,6 +96,14 @@ $(document).ready(function() {
 		jsonPath : 'anniversaries.json'
 	});
 
+	$("#owl-ny").owlCarousel({
+		lazyLoad : true,
+		//singleItem : true,
+		//autoHeight : true,
+		transitionStyle:"fade",
+		jsonPath : 'ny.json'
+	});
+
 	$("#owl-misc").owlCarousel({
 		lazyLoad : true,
 		//singleItem : true,
