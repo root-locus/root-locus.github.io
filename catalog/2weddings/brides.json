@@ -1,10 +1,10 @@
 {
   "owl" : [
-{"item" : "<div class='item'><img class='lazyOwl' data-src='brides/букет001.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='brides/букет001+бутоньерка.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='brides/букет003.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='brides/букет002.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='brides/букет003+бутоньерка.jpg' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='brides/Wed_Миша и Аня.JPG' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='brides/Wed_Миша и Аня2.JPG' alt='Букет'><div class='desc'>Add a description of the image here</div></div>"}
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='brides/букет001.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='brides/букет001.jpg' alt='Букет'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='brides/букет001+бутоньерка.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='brides/букет001+бутоньерка.jpg' alt='Букет'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='brides/букет003.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='brides/букет003.jpg' alt='Букет'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='brides/букет002.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='brides/букет002.jpg' alt='Букет'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='brides/букет003+бутоньерка.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='brides/букет003+бутоньерка.jpg' alt='Букет'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='brides/Wed_Миша и Аня.JPG' title='Add a description of the image here'><img class='lazyOwl' data-src='brides/Wed_Миша и Аня.JPG' alt='Букет'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='brides/Wed_Миша и Аня2.JPG' title='Add a description of the image here'><img class='lazyOwl' data-src='brides/Wed_Миша и Аня2.JPG' alt='Букет'></a><div class='desc'></div></div>"}
 ]}

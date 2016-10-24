@@ -1,13 +1,13 @@
 {
   "owl" : [
-{"item" : "<div class='item'><img class='lazyOwl' data-src='chrysan/chrysan001.jpeg' alt='Цветы'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='chrysan/chrysan002.jpg' alt='Цветы'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='chrysan/chrysan003.jpg' alt='Цветы'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='chrysan/chrysan004.jpg' alt='Цветы'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='chrysan/chrysan005.jpg' alt='Цветы'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='chrysan/chrysan006.jpg' alt='Цветы'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='chrysan/chrysan007.jpg' alt='Цветы'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='chrysan/chrysan008.jpg' alt='Цветы'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='chrysan/chrysan009.jpg' alt='Цветы'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='chrysan/chrysan0010.jpg' alt='Цветы'><div class='desc'></div></div>"}
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='chrysan/chrysan001.jpeg' title=''><img class='lazyOwl' data-src='chrysan/chrysan001.jpeg' alt='Цветы'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='chrysan/chrysan002.jpg' title=''><img class='lazyOwl' data-src='chrysan/chrysan002.jpg' alt='Цветы'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='chrysan/chrysan003.jpg' title=''><img class='lazyOwl' data-src='chrysan/chrysan003.jpg' alt='Цветы'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='chrysan/chrysan004.jpg' title=''><img class='lazyOwl' data-src='chrysan/chrysan004.jpg' alt='Цветы'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='chrysan/chrysan005.jpg' title=''><img class='lazyOwl' data-src='chrysan/chrysan005.jpg' alt='Цветы'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='chrysan/chrysan006.jpg' title=''><img class='lazyOwl' data-src='chrysan/chrysan006.jpg' alt='Цветы'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='chrysan/chrysan007.jpg' title=''><img class='lazyOwl' data-src='chrysan/chrysan007.jpg' alt='Цветы'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='chrysan/chrysan008.jpg' title=''><img class='lazyOwl' data-src='chrysan/chrysan008.jpg' alt='Цветы'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='chrysan/chrysan009.jpg' title=''><img class='lazyOwl' data-src='chrysan/chrysan009.jpg' alt='Цветы'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='chrysan/chrysan0010.jpg' title=''><img class='lazyOwl' data-src='chrysan/chrysan0010.jpg' alt='Цветы'></a><div class='desc'></div></div>"}
 ]}

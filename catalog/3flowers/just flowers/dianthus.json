@@ -1,8 +1,8 @@
 {
   "owl" : [
-{"item" : "<div class='item'><img class='lazyOwl' data-src='dianthus/dianthus001.jpeg' alt='Гвоздики'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='dianthus/dianthus002.jpg' alt='Гвоздики'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='dianthus/dianthus003.jpg' alt='Гвоздики'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='dianthus/dianthus004.jpg' alt='Гвоздики'><div class='desc'></div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='dianthus/dianthus005.jpg' alt='Гвоздики'><div class='desc'></div></div>"}
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='dianthus/dianthus001.jpeg' title=''><img class='lazyOwl' data-src='dianthus/dianthus001.jpeg' alt='Гвоздики'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='dianthus/dianthus002.jpg' title=''><img class='lazyOwl' data-src='dianthus/dianthus002.jpg' alt='Гвоздики'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='dianthus/dianthus003.jpg' title=''><img class='lazyOwl' data-src='dianthus/dianthus003.jpg' alt='Гвоздики'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='dianthus/dianthus004.jpg' title=''><img class='lazyOwl' data-src='dianthus/dianthus004.jpg' alt='Гвоздики'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='dianthus/dianthus005.jpg' title=''><img class='lazyOwl' data-src='dianthus/dianthus005.jpg' alt='Гвоздики'></a><div class='desc'></div></div>"}
 ]}

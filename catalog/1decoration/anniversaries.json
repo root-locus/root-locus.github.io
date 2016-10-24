@@ -1,8 +1,8 @@
 {
   "owl" : [
-{"item" : "<div class='item'><img class='lazyOwl' data-src='anniversaries/IMG_9113.jpg' alt='Юбилей'><div class='desc'>ресторан KINKI. Оформление по случаю дня рождения</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='anniversaries/IMG_9221.jpg' alt='Юбилей'><div class='desc'>ресторан KINKI. Оформление по случаю дня рождения</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='anniversaries/IMG_9224.jpg' alt='Юбилей'><div class='desc'>ресторан KINKI. Оформление по случаю дня рождения</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='anniversaries/IMG_9771.jpg' alt='Юбилей'><div class='desc'>ресторан KINKI. Оформление по случаю дня рождения</div></div>"},
-{"item" : "<div class='item'><img class='lazyOwl' data-src='anniversaries/IMG_9776.jpg' alt='Юбилей'><div class='desc'>ресторан KINKI. Оформление по случаю дня рождения</div></div>"}
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='anniversaries/IMG_9113.jpg' title='Ресторан KINKI. Оформление по случаю дня рождения'><img class='lazyOwl' data-src='anniversaries/IMG_9113.jpg' alt='Юбилей'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='anniversaries/IMG_9221.jpg' title='Ресторан KINKI. Оформление по случаю дня рождения'><img class='lazyOwl' data-src='anniversaries/IMG_9221.jpg' alt='Юбилей'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='anniversaries/IMG_9224.jpg' title='Ресторан KINKI. Оформление по случаю дня рождения'><img class='lazyOwl' data-src='anniversaries/IMG_9224.jpg' alt='Юбилей'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='anniversaries/IMG_9771.jpg' title='Ресторан KINKI. Оформление по случаю дня рождения'><img class='lazyOwl' data-src='anniversaries/IMG_9771.jpg' alt='Юбилей'></a><div class='desc'></div></div>"},
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='anniversaries/IMG_9776.jpg' title='Ресторан KINKI. Оформление по случаю дня рождения'><img class='lazyOwl' data-src='anniversaries/IMG_9776.jpg' alt='Юбилей'></a><div class='desc'></div></div>"}
 ]}
