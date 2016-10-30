@@ -1,25 +1,5 @@
-/*{
-    margin:0;
-    padding:0;
-}
-/*body {
-    background-color:#eee;
-    font:14px/1.3 Arial,sans-serif;
-}
-/*
-header {
-    background-color:#212121;
-    box-shadow: 0 -1px 2px #111111;
-    color:#fff;
-    display:block;
-    height:70px;
-    position:relative;
-    width:100%;
-    z-index:100;
-}*/
-
-html, body, .index {
-    height: 92%;
+html, body, #wrap {
+  height: 100%;
 }
 
 @font-face { font-family:'m_Ben_Krush';src: url('fonts/m_Ben_Krush.ttf');}
@@ -30,12 +10,11 @@ h1.centered {
 
 ol.centered {
   display: table;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-div.index {
-  width: 30%;
-  margin-left: 35%;
+div#info {
+  margin: 0 auto;
   margin-top: 5%;
   text-align: center;
   border: 4px double;
@@ -45,18 +24,45 @@ div.index {
   box-shadow: -10px 10px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
-div.index > p{
+@media (max-width: 400px) {
+  div#info {
+    width: 100%;
+    padding: 0px;
+    height: 100%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+  div#info {
+    width: 80%;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1400px) {
+  div#info {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1401px) {
+  div#info {
+    width: 30%;
+    height: 70%;
+  }
+}
+
+div#info > p {
   display: inline-block;
   vertical-align: middle;
   line-height: normal; 
 }
 
-div.index > p > a {
+div#info > div > p > a {
   color: #eed032;
   text-decoration: none;
 }
 
-div.index > p > a:hover {
+div#info > div > p > a:hover {
   color: #eed000;
   text-decoration: underline;
 }
@@ -66,45 +72,6 @@ div#title > h1 {
   font-size: 4.5em;
   font-weight: 100;
 }
-
-/*
-div.index {
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  text-align: center;
-}
-
-div.index > span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;      
-}
-
-div#intro {
-  font-weight: bold;
-}
-
-div#info {
-  width: 33.33%;
-  margin-left: 33.33%;
-  border: 4px double;
-  padding: 10px;
-  color: white;
-  background-color: black;
-  box-shadow: -10px 10px 8px 0 rgba(0, 0, 0, 0.3);
-  font-size: larger;
-}
-
-div#info > span > a {
-  color: #eed032;
-  text-decoration: none;
-}
-
-div#info > span > a:hover {
-  color: #eed000;
-  text-decoration: underline;
-}*/
 
 li > a {
   text-decoration: none;
@@ -128,14 +95,6 @@ li > a:hover {
 .owl-item img:hover {
   box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.5);
 }
-/*
-.owl-item img:hover {
-  opacity: 0.5;
-}
-
-.owl-item img:active {
-transform: scale(1.5);  
-}*/
 
 div.desc {
     padding: 15px;
@@ -178,14 +137,4 @@ div.desc {
 .content {
   margin: 0px;
   padding: 0px; 
-  /*border: 1px solid black;*/
 }
-
-/*
-#photo {
-  float: left;
-}
-
-#about {
-  float: right;
-}*/
