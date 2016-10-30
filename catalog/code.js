@@ -116,6 +116,14 @@ $(document).ready(function() {
 		jsonPath : 'decor.json'
 	});
 
+	$("#owl-handmade").owlCarousel({
+		lazyLoad : true,
+		//singleItem : true,
+		//autoHeight : true,
+		transitionStyle:"fade",
+		jsonPath : 'handmade.json'
+	});
+
 	$("#owl-anniversaries").owlCarousel({
 		lazyLoad : true,
 		//singleItem : true,
