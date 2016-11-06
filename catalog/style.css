@@ -1,4 +1,4 @@
-html, body, #wrap {
+html, body, .wrap {
   height: 100%;
 }
 
@@ -13,7 +13,7 @@ ol.centered {
   margin: 0 auto;
 }
 
-div#info {
+div.info, div.info2{
   margin: 0 auto;
   margin-top: 5%;
   text-align: center;
@@ -25,7 +25,7 @@ div#info {
 }
 
 @media (max-width: 400px) {
-  div#info {
+  div.info {
     width: 100%;
     padding: 0px;
     height: 100%;
@@ -33,36 +33,36 @@ div#info {
 }
 
 @media (min-width: 401px) and (max-width: 800px) {
-  div#info {
+  div.info {
     width: 80%;
   }
 }
 
 @media (min-width: 801px) and (max-width: 1400px) {
-  div#info {
+  div.info {
     width: 60%;
   }
 }
 
 @media (min-width: 1401px) {
-  div#info {
+  div.info {
     width: 30%;
     height: 70%;
   }
 }
 
-div#info > p {
+div.info > p {
   display: inline-block;
   vertical-align: middle;
   line-height: normal; 
 }
 
-div#info > div > p > a {
+div.info > div > p > a, div.info2 > p > a {
   color: #eed032;
   text-decoration: none;
 }
 
-div#info > div > p > a:hover {
+div.info > div > p > a:hover, div.info2 > p > a:hover {
   color: #eed000;
   text-decoration: underline;
 }
@@ -78,7 +78,7 @@ li > a {
 }
 
 li > a:hover {
-  font-size: 1.1em;
+  text-decoration: underline;
 }
 
 .item{
@@ -113,28 +113,29 @@ div.desc {
 .row {
   width: 100%;
   box-sizing: border-box;
-  height:500px;
+  height: 500px;
 }
 
-.contact > img {
-  width: 100%;
-}
-
-@media (max-width: 561px) {
+@media (max-width: 1200px) {
   .col-sm-12 {
     width: 100%;
     float: left;
   }
 }
 
-@media (min-width: 562px) {
+@media (min-width: 1201px) {
   .col-etc-6 {
     width: 50%;
     float: left;
   }
 }
 
-.content {
-  margin: 0px;
-  padding: 0px; 
+#p1 {
+  margin-top: 100px;
+}
+
+.info2 {
+  font-size: 1.2em;
+  width: 560px;
+  height: 400px;
 }
