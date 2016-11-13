@@ -57,7 +57,7 @@ div.info > p {
   line-height: normal; 
 }
 
-div.info > div > p > a, div.info2 > p > a {
+div.info > div > p > a, div.info2 > p > a, .yellow {
   color: #eed032;
   text-decoration: none;
 }
@@ -131,7 +131,7 @@ div.desc {
 }
 
 #p1 {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .info2 {
