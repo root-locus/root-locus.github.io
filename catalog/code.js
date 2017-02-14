@@ -51,54 +51,13 @@ $(document).ready(function() {
 		jsonPath : 'pots.json'
 	});
 
-	$("#owl-dianthus").owlCarousel({
+	$("#owl-simple").owlCarousel({
 		lazyLoad : true,
 		//singleItem : true,
 		//autoHeight : true,
 		transitionStyle:"fade",
-		jsonPath : 'dianthus.json'
+		jsonPath : 'simple.json'
 	});
-
-	$("#owl-gerbera").owlCarousel({
-		lazyLoad : true,
-		//singleItem : true,
-		//autoHeight : true,
-		transitionStyle:"fade",
-		jsonPath : 'gerbera.json'
-	});
-
-	$("#owl-hydrangea").owlCarousel({
-		lazyLoad : true,
-		//singleItem : true,
-		//autoHeight : true,
-		transitionStyle:"fade",
-		jsonPath : 'hydrangea.json'
-	});
-
-	$("#owl-orchid").owlCarousel({
-		lazyLoad : true,
-		//singleItem : true,
-		//autoHeight : true,
-		transitionStyle:"fade",
-		jsonPath : 'orchid.json'
-	});
-
-	$("#owl-roses").owlCarousel({
-		lazyLoad : true,
-		//singleItem : true,
-		//autoHeight : true,
-		transitionStyle:"fade",
-		jsonPath : 'roses.json'
-	});
-
-	$("#owl-chrysan").owlCarousel({
-		lazyLoad : true,
-		//singleItem : true,
-		//autoHeight : true,
-		transitionStyle:"fade",
-		jsonPath : 'chrysan.json'
-	});
-
 
 	$("#owl-artificials").owlCarousel({
 		lazyLoad : true,
@@ -124,6 +83,14 @@ $(document).ready(function() {
 		jsonPath : 'handmade.json'
 	});
 
+	$("#owl-dried").owlCarousel({
+		lazyLoad : true,
+		//singleItem : true,
+		//autoHeight : true,
+		transitionStyle:"fade",
+		jsonPath : 'dried.json'
+	});
+
 	$("#owl-anniversaries").owlCarousel({
 		lazyLoad : true,
 		//singleItem : true,
@@ -138,6 +105,14 @@ $(document).ready(function() {
 		//autoHeight : true,
 		transitionStyle:"fade",
 		jsonPath : 'ny.json'
+	});
+
+	$("#owl-official").owlCarousel({
+		lazyLoad : true,
+		//singleItem : true,
+		//autoHeight : true,
+		transitionStyle:"fade",
+		jsonPath : 'official.json'
 	});
 
 	$("#owl-misc").owlCarousel({

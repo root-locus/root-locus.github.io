@@ -1,12 +1,9 @@
 {
 	"owl" : [
-{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='artificials/20160704_124027.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='artificials/20160704_124027.jpg' alt='Искусственные цветы'></a><div class='desc'></div></div>"},
 {"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='artificials/20160704_124325.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='artificials/20160704_124325.jpg' alt='Искусственные цветы'></a><div class='desc'></div></div>"},
 {"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='artificials/20160704_124428.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='artificials/20160704_124428.jpg' alt='Искусственные цветы'></a><div class='desc'></div></div>"},
 {"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='artificials/20160704_124556.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='artificials/20160704_124556.jpg' alt='Искусственные цветы'></a><div class='desc'></div></div>"},
 {"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='artificials/IMG_0771.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='artificials/IMG_0771.jpg' alt='Искусственные цветы'></a><div class='desc'></div></div>"},
-{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='artificials/image-4.jpeg' title='Add a description of the image here'><img class='lazyOwl' data-src='artificials/image-4.jpeg' alt='Искусственные цветы'></a><div class='desc'></div></div>"},
-{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='artificials/image-5.jpeg' title='Add a description of the image here'><img class='lazyOwl' data-src='artificials/image-5.jpeg' alt='Искусственные цветы'></a><div class='desc'></div></div>"},
-{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='artificials/IMG_0815.jpg' title='Add a description of the image here'><img class='lazyOwl' data-src='artificials/IMG_0815.jpg' alt='Искусственные цветы'></a><div class='desc'></div></div>"}
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='artificials/image-4.jpeg' title='Add a description of the image here'><img class='lazyOwl' data-src='artificials/image-4.jpeg' alt='Искусственные цветы'></a><div class='desc'></div></div>"}
 	]
 }
