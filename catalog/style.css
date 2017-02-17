@@ -10,8 +10,21 @@ html, body {
 
 @font-face { font-family:'m_Ben_Krush';src: url('fonts/m_Ben_Krush.ttf');}
 
-.header > a {
+.header {
   font-size: 1.6em;
+  font-weight: bold;
+/*  text-decoration: none;*/
+}
+
+.header2 {
+  font-size: 2.4em;
+  font-weight: bold;
+  white-space: pre;
+/*  text-decoration: none;*/
+}
+
+.header3 {
+  font-size: 1.4em;
   font-weight: bold;
 /*  text-decoration: none;*/
 }
@@ -79,8 +92,7 @@ div.info, div.info2, div.info3 {
 
 @media (min-width: 1401px) {
   div.info {
-    width: 55%;
-    height: 60%;
+    width: 50%;
   }
 }
 
