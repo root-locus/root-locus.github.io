@@ -205,4 +205,6 @@ div.desc {
 .annotate {
   margin-right: 10%;
   margin-left: 10%;
+  font-size: 1.3em;
+  font-weight: bold;
 }
