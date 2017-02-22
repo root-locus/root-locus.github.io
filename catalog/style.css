@@ -201,3 +201,8 @@ div.desc {
 .leftcentered {
   text-align: left;
 }
+
+.annotate {
+  margin-right: 10%;
+  margin-left: 10%;
+}
