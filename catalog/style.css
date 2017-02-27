@@ -19,7 +19,7 @@ html, body {
 .header2 {
   font-size: 2.4em;
   font-weight: bold;
-  white-space: pre;
+/*  white-space: pre; */
 /*  text-decoration: none;*/
 }
 
@@ -76,11 +76,28 @@ div.info, div.info2, div.info3 {
     padding: 0px;
     height: 100%;
   }
+
+  #indexphoto {
+    width: 99.9%;
+    height: auto;
+  }
+
+  div.info2 {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    box-shadow: none;
+  }
 }
 
 @media (min-width: 401px) and (max-width: 800px) {
   div.info {
     width: 80%;
+  }
+
+  .info2 {
+    width: 560px;
+    height: 400px;
   }
 }
 
@@ -88,11 +105,21 @@ div.info, div.info2, div.info3 {
   div.info {
     width: 60%;
   }
+  
+  .info2 {
+    width: 560px;
+    height: 400px;
+  }
 }
 
 @media (min-width: 1401px) {
   div.info {
     width: 50%;
+  }
+  
+  .info2 {
+    width: 560px;
+    height: 400px;
   }
 }
 
@@ -186,11 +213,6 @@ div.desc {
 
 #p1 {
   margin-top: 60px;
-}
-
-.info2 {
-  width: 560px;
-  height: 400px;
 }
 
 .info3 {
