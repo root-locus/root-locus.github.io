@@ -1,4 +1,4 @@
 {
   "owl" : [
-{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='misc/h-1.jpeg' title='Подготовка к Хэллоуину'><img class='lazyOwl' data-src='misc/h-1.jpeg' alt='Разное'></a><div class='desc'></div></div>"}
+{"item" : "<div class='item'><a class='fancybox-thumbs' data-fancybox-group='thumb' href='misc/h-1.jpeg' title='Подготовка к Хэллоуину'><img class='lazyOwl' src='misc/h-1.jpeg' alt='Разное'></a><div class='desc'></div></div>"}
 ]}
